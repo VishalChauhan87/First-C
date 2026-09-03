@@ -1,16 +1,14 @@
 #include <stdio.h>
+int main(){
+    int length,breadth;
+    printf("Enter Length:");
+    scanf("%d",&length);
 
-int main()
- {
- // int length = 3;
- //   int breath = 6;
- int length ,breath;
- printf("Enter length\n");
- scanf("%d", &length);
+    printf("Enter breath:");
+    scanf("%d",&breadth);
 
- printf("Enter breath\n");
- scanf("%d", &breath);
-
-     printf("The area of rectangle is %d", length*breath);
+    printf("The area of rectange= %d",length*breadth);
     return 0;
+
+    
 }

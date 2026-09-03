@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+void main ()
+{ 
+    int a,b,sum,sub,multi,div,rem
+    printf("enter two nos");
+    scanf("%d%d",&a,&b);
+    sum = a+b;
+    sub =a-b;
+    multi=a*b;
+    div=a/b;
+    rem=a%b;
+    printf("%d\n%d\n%d\n%d",sum)
+}
+    
